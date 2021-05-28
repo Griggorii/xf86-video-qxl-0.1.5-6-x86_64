@@ -3,7 +3,11 @@ xf86 video qxl
 
 Rebuild port view https://youtu.be/GBAtFq2aD8E
 
-xorg-include.zip inpack sudo cp -r  'spice' 'xorg' /usr/include
+xorg-include.zip inpack 
+
+$ sudo cp -r  'spice' 'xorg' /usr/include
+
+$ sudo rm /usr/include/pciaccess.h
 
 xf86-video-qxl-0.1.5.zip inpack /tmp
 
