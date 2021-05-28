@@ -7,6 +7,8 @@ xorg-include.zip inpack sudo cp -r  'spice' 'xorg' /usr/include
 
 xf86-video-qxl-0.1.5.zip inpack /tmp
 
-&& make
+$ make
 
-&& sudo make install
+$ sudo make install
+
+$  sudo strip -s '/lib/xorg/modules/drivers/qxl_drv.so'
