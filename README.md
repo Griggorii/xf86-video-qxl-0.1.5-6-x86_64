@@ -1,9 +1,12 @@
 # xf86-video-qxl-0.1.5-6-x86_64-
 xf86 video qxl
 
-xf86-video-qxl-0.1.5.zip inpack
+Rebuild port view https://youtu.be/GBAtFq2aD8E
 
-in folder xf86-video-qxl-0.1.5 run terminal command
+xorg-include.zip inpack sudo cp -r  'spice' 'xorg' /usr/include
+
+xf86-video-qxl-0.1.5.zip inpack /tmp
 
 && make
+
 && sudo make install
