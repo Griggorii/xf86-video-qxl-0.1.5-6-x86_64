@@ -1,4 +1,4 @@
-# xf86-video-qxl-0.1.5-6-x86_64 , ubuntu , linux , x86_64 , video-qxl
+# xf86-video-qxl-0.1.5-6-x86_64 , ubuntu , linux , x86_64 , video-qxl , /lib/pcsc/drivers/serial
 xf86 video qxl
 
 Rebuild port view https://youtu.be/GBAtFq2aD8E
