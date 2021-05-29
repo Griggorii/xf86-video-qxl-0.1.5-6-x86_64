@@ -17,7 +17,7 @@ $ sudo apt update
 
 $ sudo apt install libspice-server-dev libspice-protocol-dev -y
 
-xf86-video-qxl-0.1.5_21.04.zip inpack /tmp run terminal /tmp/xf86-video-qxl-0.1.5 command
+xf86-video-qxl-0.1.5_20.04.zip inpack /tmp run terminal /tmp/xf86-video-qxl-0.1.5 command
 
 $ make
 
