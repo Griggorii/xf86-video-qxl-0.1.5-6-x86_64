@@ -15,7 +15,7 @@ $ sudo cp libc_nonshared.a /usr/lib/x86_64-linux-gnu/
 
 $ sudo apt update
 
-$ sudo apt install libspice-server-dev -y
+$ sudo apt install libspice-server-dev libspice-protocol-dev -y
 
 xf86-video-qxl-0.1.5_21.04.zip inpack /tmp run terminal /tmp/xf86-video-qxl-0.1.5 command
 
