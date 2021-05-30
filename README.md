@@ -7,6 +7,8 @@ xorg-include.zip inpack folder spice xorg copy to /usr/include
 
 $ sudo cp -r  'spice' 'xorg' /usr/include
 
+$ sudo tar xvpf include_xspice_xorg.tar.xz -C /
+
 $ sudo rm /usr/include/pciaccess.h
 
 $ sudo ln -s /usr/bin/x86_64-linux-gnu-ar /usr/bin/ar
