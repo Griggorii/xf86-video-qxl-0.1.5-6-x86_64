@@ -31,5 +31,8 @@ $ sudo strip -s '/lib/xorg/modules/drivers/qxl_drv.so'
 
 $ sudo strip -s '/lib/xorg/modules/drivers/spiceqxl_drv.so'
 
+Setting flags editor#
+
+$ sudo nano /etc/X11/spiceqxl.xorg.conf
 
 Only real technologies, not any fictional parasitic distributions all it corporation support real technology investments and donate VISA 4817 7601 8112 4706 thanks
