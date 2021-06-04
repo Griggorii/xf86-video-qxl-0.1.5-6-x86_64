@@ -17,7 +17,7 @@ $ sudo cp libc_nonshared.a /usr/lib/x86_64-linux-gnu/
 
 $ sudo apt update
 
-$ sudo apt install libspice-server-dev libspice-protocol-dev libxfont-dev -y
+$ sudo apt install libspice-server-dev libspice-protocol-dev libxfont-dev libdrm-dev -y
 
 xf86-video-qxl-0.1.5_20.04.zip inpack /tmp run terminal /tmp/xf86-video-qxl-0.1.5 command
 
@@ -25,7 +25,7 @@ $ make
 
 $ sudo make install
 
-$  sudo strip -s '/lib/xorg/modules/drivers/qxl_drv.so'
+$ sudo strip -s '/lib/xorg/modules/drivers/qxl_drv.so'
 
 $ sudo strip -s '/lib/xorg/modules/drivers/spiceqxl_drv.so'
 
