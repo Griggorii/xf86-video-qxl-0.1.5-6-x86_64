@@ -7,6 +7,8 @@ xorg-include.zip inpack folder spice xorg copy to /usr/include
 
 $ sudo cp -r  'spice' 'xorg' /usr/include
 
+$ sudo cp spiceqxl.xorg.conf /etc/X11
+
 $ sudo tar xvpf include_xspice_xorg.tar.xz -C /
 
 $ sudo rm /usr/include/pciaccess.h
@@ -28,5 +30,6 @@ $ sudo make install
 $ sudo strip -s '/lib/xorg/modules/drivers/qxl_drv.so'
 
 $ sudo strip -s '/lib/xorg/modules/drivers/spiceqxl_drv.so'
+
 
 Only real technologies, not any fictional parasitic distributions all it corporation support real technology investments and donate VISA 4817 7601 8112 4706 thanks
