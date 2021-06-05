@@ -36,3 +36,7 @@ Setting flags editor#
 $ sudo nano /etc/X11/spiceqxl.xorg.conf
 
 Only real technologies, not any fictional parasitic distributions all it corporation support real technology investments and donate VISA 4817 7601 8112 4706 thanks
+
+Dev redefvlopment generation .pot remove example:
+
+$ sudo apt purge libfreetype-dev libfreetype6-dev libpng-dev libpthread-stubs0-dev libspice-protocol-dev libspice-server-dev libx11-dev libxau-dev libxcb1-dev libxdmcp-dev libxfont-dev x11proto-core-dev x11proto-dev xorg-sgml-doctools xtrans-dev -y
